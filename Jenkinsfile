@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: ''
+                git branch: 'master', url: 'https://github.com/saiaryansahoo/EKS-Terraform-Jenkins-GitHub.git'
             }
         }
         stage('Init') {
